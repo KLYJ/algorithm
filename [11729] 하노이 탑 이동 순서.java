@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class BJ_11729 {
 
-	static int answer = 0;
+    static int answer = 0;
     static StringBuilder sb = new StringBuilder();
     
     private static void hanoi(int n, int from, int temp, int to){
