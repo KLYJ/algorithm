@@ -8,7 +8,7 @@ public class 완주하지못한선수 {
 		System.out.println(solution2(new String[] {"leo", "kiki", "eden"}, new String[] {"eden", "kiki"}));
 	}
 	
-  //방법1 : HashMap 이용 (빠름)
+        //방법1 : HashMap 이용 (빠름)
 	public String solution(String[] participant, String[] completion) {
         //answer에 <참가자 이름, 수> 저장
         Map<String, Integer> answer = new HashMap<>();
@@ -37,7 +37,7 @@ public class 완주하지못한선수 {
         return answer.keySet().iterator().next();
     }
 	
-  // 방법2 : 배열 탐색 이용
+        // 방법2 : 배열 탐색 이용
 	public static String solution2(String[] participant, String[] completion) {
 		Arrays.sort(participant);
 		Arrays.sort(completion);
