@@ -19,14 +19,25 @@ public class _3진법뒤집기 {
 		}
 		
 		//3진법 -> 10진법
-        int answer = 0;
+        	int answer = 0;
 		int num=1;
 		for(int i=list.size()-1;i>=0;i--) {
 			answer += list.get(i)*num;
 			num *= 3;
 		}
 		
-        return answer;
-    }
+        	return answer;
+   	}	
+	
+	public int solution2(int n) {
+	    	StringBuilder sb = new StringBuilder();
+		while(n>0){
+ 		   sb.append(n%3);
+ 		   n/=3;
+   		}
+        
+  	        int answer = Integer.parseInt(sb.toString(),3);
+  	        return answer;
+ 	}	
 
 }
