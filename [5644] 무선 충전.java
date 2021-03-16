@@ -115,6 +115,7 @@ public class SWEA_5644 {
 		System.out.println(sb.toString());
 	}
 
+	
 	private static void ap_set(int idx, int r, int c, int dis, int power) {
 		for(int i=r-dis, j=0;i<=r+dis;i++) {
 			for(int k=c-j;k<=c+j;k++) {
