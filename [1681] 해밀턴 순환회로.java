@@ -43,10 +43,7 @@ public class JO_1681 {
 
 		// 가지치기
 		if (sum > answer)
-
-		{
 			return;
-		}
 
 		for (int i = 0; i < N; i++) {
 			if (!visited[i] && adMatrix[idx][i] > 0) {
