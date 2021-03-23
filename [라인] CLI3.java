@@ -58,6 +58,7 @@ public class Solution7 {
 		// commands 검사
 		ArrayList<String> use = new ArrayList<>(); //이미 사용한 명령어 저장
 		for (int i = 0; i < len; i++) {
+			use.clear();
 			// 프로그램 이름과 같은지 검사
 			if (!list[i].get(0).equals(program)) {
 				answer[i] = false;
