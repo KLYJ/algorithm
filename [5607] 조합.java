@@ -1,5 +1,3 @@
-package ct01hw_서울_7_이유진;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
