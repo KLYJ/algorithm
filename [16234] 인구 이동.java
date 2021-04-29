@@ -33,14 +33,6 @@ public class BJ_16234 {
 			}
 		}
 
-//		for (int i = 0; i < N; i++) {
-//			for (int j = 0; j < N; j++) {
-//				System.out.print(map[i][j] + "\t");
-//			}
-//			System.out.println();
-//		}
-//		System.out.println("--------");
-
 		while (true) {
 			// 초기화
 			for (int i = 0; i < N; i++)
@@ -53,14 +45,6 @@ public class BJ_16234 {
 
 			// 인구 재분배
 			move();
-
-//			for (int i = 0; i < N; i++) {
-//				for (int j = 0; j < N; j++) {
-//					System.out.print(map[i][j] + "\t");
-//				}
-//				System.out.println();
-//			}
-//			System.out.println("--------");
 
 			answer++;
 		}
