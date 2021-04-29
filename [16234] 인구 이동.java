@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BJ_16234_2 {
+public class BJ_16234 {
 
 	static int N, L, R, map[][], visited[][], answer = 0;;
 	static int dx[] = { 0, 0, -1, 1 };
